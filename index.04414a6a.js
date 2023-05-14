@@ -1,0 +1,2 @@
+var e;console.log((e="poland",new Promise(((o,t)=>{fetch(`https://restcountries.com/v3.1/name/${e}?fields=name,capital,population,flags,languages`,{method:"GET"}).then((e=>{if(e.ok)return e.json();t(`Error ${e.status}`)})).then((e=>{o(e)}))}))));const o=document.querySelector("#search-box");document.querySelector(".country-list"),document.querySelector(".country-info");let t=[],n=()=>{t.push(o.value),console.log(t)};o.addEventListener("input",n),console.log(n);
+//# sourceMappingURL=index.04414a6a.js.map
