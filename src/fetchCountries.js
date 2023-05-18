@@ -12,6 +12,7 @@ function fetchCountries(name) {
         if (!response.ok) {
           reject(`Error ${response.status}`);
         } else {
+          console.log(response.json());
           return response.json();
         }
       })
