@@ -1,2 +1,0 @@
-!function(){var o;console.log((o="poland",new Promise((function(n,e){fetch("https://restcountries.com/v3.1/name/".concat(o,"?fields=name,capital,population,flags,languages"),{method:"GET"}).then((function(o){if(o.ok)return o.json();e("Error ".concat(o.status))})).then((function(o){n(o)}))}))));var n=document.querySelector("#search-box"),e=(document.querySelector(".country-list"),document.querySelector(".country-info"),[]),t=function(){e.push(n.value),console.log(e)};n.addEventListener("input",t),console.log(t)}();
-//# sourceMappingURL=index.4998bb1d.js.map
