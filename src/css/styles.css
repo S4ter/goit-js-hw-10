@@ -19,8 +19,28 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
-img {
+
+.flag {
+  width: 130px;
+  height: 80px;
+}
+.country-list {
+  margin: 0;
+  padding: 0;
+}
+.country-info {
+  margin: 0;
+}
+.country-name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20;
+  margin: 0;
+}
+.flag-image {
   width: 30px;
   height: 20px;
-  margin-left: 5px;
+  margin-left: 10px;
+}
+.list-element {
+  font-weight: 700;
 }
